@@ -1,0 +1,132 @@
+  105  mkdir lab02
+  106  ls
+  107  cd lab02
+  108  mkdir kampus-projesi
+  109  ls
+  110  cd kampus-projesi
+  111  touch README.md
+  112  ls
+  113  mkdir src
+  114  ls
+  115  cd src
+  116  touch main.py
+  117  ls
+  118  touch utils.py
+  119  ls
+  120  cd ../
+  121  ls
+  122  mkdir docs
+  123  ls
+  124  touch notlar.txt
+  125  mkdir taslak
+  126  cd taslak
+  127  cd ../
+  128  ls
+  129  rm -r taslak
+  130  ls
+  131  rm -r notlar.txt
+  132  ls
+  133  cd docs
+  134  touch notlar.txt
+  135  mkdir taslak
+  136  cd taslak
+  137  touch eski-plan.txt
+  138  ls
+  139  cd ../
+  140  ls
+  141  cd ../
+  142  ls
+  143  mkdir assets
+  144  cd assets
+  145  mkdir img
+  146  mkdir css
+  147  cd css
+  148  tocuch stil.css
+  149  touch stil.css
+  150  ls
+  151  cd ../
+  152  ls
+  153  cd ../
+  154  ls
+  155  mdkir tmp
+  156  mkdir tmp
+  157  cd tmp
+  158  touch deneme1.txt
+  159  touch deneme2.txt
+  160  ls
+  161  cd ../
+  162  ls
+  163  rm -r assets
+  164  ls
+  165  mkdir -p assets/{img,css}
+  166  ls
+  167  cd assets
+  168  ls
+  169  cd css
+  170  touch stil.css
+  171  ls
+  172  cd ../
+  173  ls
+  174  cd ../
+  175  ls
+  176  cd ~/kampus-projesi
+  177  ls
+  178  ls -R
+  179  ls -la
+  180  mkdir arsiv/2024
+  181  mkdir -p arsiv/2024
+  182  ls
+  183  cd arsiv
+  184  ls
+  185  cd ../
+  186  ls
+  187  mv docs/taslak/eki-plan.txt arsiv/2024
+  188  mv docs/taslak/eski-plan.txt arsiv/2024
+  189  ls
+  190  cd arsiv
+  191  ls
+  192  cd 2024
+  193  ls
+  194  cd ../
+  195  ls
+  196  cd docs
+  197  ls
+  198  cp notlar.txt notlar-yedek.txt
+  199  ls
+  200  cd ../
+  201  mv README.md BENIOKU.md
+  202  ls
+  203  cd assets
+  204  ls
+  205  cd img
+  206  ls
+  207  touch logo.png kapak.png arkaplan.png
+  208  ls
+  209  cd ../
+  210  cp assets/css/stil.css src/
+  211  ls
+  212  cd src
+  213  ls
+  214  cd ../
+  215  ls
+  216  cd tmp
+  217  ls
+  218  rm -i deneme1.txt
+  219  ls
+  220  rm -i deneme2.txt
+  221  ls
+  222  rmdir tmp
+  223  cd ../
+  224  rmdir tmp
+  225  ls
+  226  rmdir docs/taslak
+  227  ls
+  228  cd docs
+  229  ls
+  230  cd ~
+  231  cd LNX201-Linux-Labs
+  232  cd lab02
+  233  ls -R kampus-projesi > yapi.txt
+  234  history > komutlar.txt
+  235  mkdir -p ~/sonuclar/lab02
+  236  cp yapi.txt komutlar.txt ~/sonuclar/lab02/
